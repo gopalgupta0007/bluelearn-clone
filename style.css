@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-weight: bold;
+    background-color: black;
+    height : 200vh;
+}
+#Head{
+    margin-top: 150px;
+    line-height: 2;
+}
+#navbar{
+    position: fixed;
+    left : 9%;
+    top : 0;
+    z-index: 5;
+}
+#middle-navbar {
+    color: white !important;
+    max-width: 600px;
+}
+
+a>span {
+    color: darkblue;
+}
+
+ul>li>a:hover {
+    text-decoration-style: none;
+    color: rgb(66, 66, 255);
+}
+
+#Heading {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#description {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(219, 219, 219);
+}
+#btn-google, #btn-apple{
+    font-size: 20px;
+    font-weight: bold;
+}
+#btn-google>i, #btn-apple>i{
+    font-size: 25px;
+}
+.nav-link:hover{
+    color: rgb(0, 0, 255) !important;
+}
+#Main{
+    border-radius: 40px 40px 0 0;
+}
+#container{
+    margin-top: 50px;
+}
+#network{
+    position: relative;
+    top: 70px;
+    background-color:rgb(251 251 195);
+    gap: 5vw;
+}
+#network-heading{
+    line-height: 4;
+    font-size: 20px;
+}
+#faq{
+    background-origin: rgb(195, 255, 195);
+}
+footer{
+    gap: 3vw;
+}
+footer>div>p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
